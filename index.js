@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Logged In")
-	bot.chat("");
+	bot.chat("merhaba");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("")
+	bot.chat("ben bir")
 	first = false;
 	}
 	else{
-		bot.chat("")
+		bot.chat("botum")
 		first = true;
 	}
   }, 3600000 * i); 
