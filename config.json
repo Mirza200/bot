@@ -1,0 +1,9 @@
+{
+	"ip":"BOTOMASYON.aternos.me",
+	"port": 11197,
+	"name": "afkbot4",
+	"auto-night-skip":"false",
+	"login-enabled":"true",
+	"register-cmd":"12345678 12345678",
+	"login-cmd":"/login 12345678"
+}
